@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Newspaper
 {
-    internal class Issue
+    public class Issue
     {
+        public DateTime Date { get; set; }
+        public List<Article> Articles { get; set; }
     }
 }
