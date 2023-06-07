@@ -1,4 +1,5 @@
 using Newspaper;
+using Newspaper.Models;
 
 namespace Newspaper_Test
 {

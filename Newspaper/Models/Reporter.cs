@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Newspaper
+namespace Newspaper.Models
 {
-    public class Issue
+    public class Reporter
     {
         public int Id { get; set; }
-        public DateTime Date { get; set; }
+        public string Name { get; set; }
+        public string Speciality { get; set; }
         public List<Article> Articles { get; set; }
     }
 }

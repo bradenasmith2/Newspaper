@@ -1,4 +1,6 @@
 using Newspaper;
+using Newspaper.Models;
+
 namespace Newspaper_Test
 {
     public class Article_Test
