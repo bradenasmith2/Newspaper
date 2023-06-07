@@ -1,9 +1,9 @@
 namespace Newspaper_Test
 {
-    public class UnitTest1
+    public class Article_Test
     {
         [Fact]
-        public void Test1()
+        public void Article_AssignsValues()
         {
 
         }
